@@ -18,8 +18,8 @@ module tt_um_example (
 
   // All output pins must be assigned. If not used, assign to 0.
     assign s0=ui_in[0];
-    assign s0=ui_in[1];
-    assign s0=ui_in[2];
+    assign i0=ui_in[1];
+    assign i1=ui_in[2];
     
     assign y0=s0?i1:i0;
     
